@@ -42,62 +42,6 @@ Sudoku Solver is a lightweight Java desktop application that takes a partially f
 | **AWT (Abstract Window Toolkit)** | Layout management and event handling |
 | **Backtracking Algorithm** | Puzzle solving logic |
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Java JDK 8 or later** — [Download from Adoptium](https://adoptium.net/temurin/releases/?version=21)
-
-Verify your installation:
-```bash
-java -version
-javac -version
-```
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Dhanushamin06/Sudoku_Solver.git
-cd Sudoku_Solver
-```
-
-### Run via Command Line
-
-```bash
-# Step 1 — Compile the source files
-javac -d out src/SudokuSolver.java src/SudokuGUI.java
-
-# Step 2 — Run the application
-java -cp out SudokuGUI
-```
-
-### Run via VS Code
-
-1. Install the **Extension Pack for Java** in VS Code
-2. Open the `Sudoku_Solver` folder
-3. Open `src/SudokuGUI.java`
-4. Click the ▶️ **Run** button at the top right
-
-### Run via IntelliJ IDEA
-
-1. Open IntelliJ IDEA → **File → Open** → select the `Sudoku_Solver` folder
-2. Right-click `SudokuGUI.java` → **Run 'SudokuGUI.main()'**
-
----
-
-## 🎮 How to Use
-
-1. **Launch** the application — a 9×9 grid window will open
-2. **Enter** the known numbers from your Sudoku puzzle into the correct cells
-3. **Leave empty** the cells that need to be solved
-4. **Click "Solve"** — the grid fills in the complete solution instantly
-5. If the puzzle is **unsolvable**, a dialog box will notify you
-
----
-
 ## ⚙️ How It Works
 
 The application is split into two classes:
